@@ -1304,7 +1304,7 @@ typedef enum {
     NSString *htmlString
       = [NSString stringWithFormat:GTMLocalizedStringFromTable(@"HTMLExportTemplate",
                                                                @"HTMLExport", @""),
-         fileName, fileName, sourcePath, date, summary, fileList,
+         fileName, fileName, sourcePath, summary, fileList,
          coverageString, sourceHTML];
     NSData *data = [htmlString dataUsingEncoding:NSUTF8StringEncoding];
     [finalWrapper addRegularFileWithContents:data
