@@ -147,7 +147,7 @@ typedef enum {
                            forKeyPath:NSSelectionIndexesBinding
                               options:0
                               context:nil];
-  NSSortDescriptor *ascending = [[[NSSortDescriptor alloc] initWithKey:@"coverage"
+  NSSortDescriptor *ascending = [[[NSSortDescriptor alloc] initWithKey:@"sourcePath"
                                                              ascending:YES] autorelease];
   [sourceFilesController_ setSortDescriptors:[NSArray arrayWithObject:ascending]];
 }
