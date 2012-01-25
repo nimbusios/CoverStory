@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>CoverStory's Changelog</title>
+      <link>http://coverstory.googlecode.com/svn/trunk/SparkleData/CoverStoryAppcast.xml</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>
+		<item>
+			<title>Version 4.2.0</title>
+              <sparkle:minimumSystemVersion>
+				10.5.0
+			  </sparkle:minimumSystemVersion>			 			     
+			  <sparkle:releaseNotesLink>
+				http://coverstory.googlecode.com/svn/trunk/SparkleData/releaseNotes.html
+			  </sparkle:releaseNotesLink>
+			<pubDate>Fri, 04 Jun 2010 14:11:34 -0700</pubDate>
+			<enclosure
+				url="http://coverstory.googlecode.com/files/CoverStory.4.2.0.dmg"
+				sparkle:version="4.2.0"
+				type="application/octet-stream"
+				length="509847"
+				sparkle:dsaSignature="MC0CFBU5/zdKg2heVhNLspkXX/wCkBEVAhUApGZfIdQD3FysGi5aiJxTIxk7AMk="
+			/>
+		</item>
+   </channel>
+</rss>
